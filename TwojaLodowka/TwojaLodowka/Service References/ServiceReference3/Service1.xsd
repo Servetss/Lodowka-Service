@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/LodowkaSerwice.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/LodowkaSerwice.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPrzepis">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Przepis" nillable="true" type="tns:Przepis" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrzepis" nillable="true" type="tns:ArrayOfPrzepis" />
+  <xs:complexType name="Przepis">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Ilosci_produktow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazwa" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Opis" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Popularnosc" type="xs:double" />
+      <xs:element minOccurs="0" name="Spis_produktow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Zatwierdzony" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Przepis" nillable="true" type="tns:Przepis" />
+</xs:schema>

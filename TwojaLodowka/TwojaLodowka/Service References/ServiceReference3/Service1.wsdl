@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/LodowkaSerwice" />
+      <xsd:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/LodowkaSerwice.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_Logowanie_zapasowe_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logowanie_zapasowe" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logowanie_zapasowe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Logowanie_zapasoweResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logowanie_zapasowe_StringFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q1:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logowanie_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logowanie" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logowanie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogowanieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Logowanie_StringFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q2:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Rejestracja_InputMessage">
+    <wsdl:part name="parameters" element="tns:Rejestracja" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Rejestracja_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RejestracjaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Rejestracja_StringFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q3:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SprawdzMail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SprawdzMail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SprawdzMail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SprawdzMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SprawdzMail_StringFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q4:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UzytkownikIstieje_InputMessage">
+    <wsdl:part name="parameters" element="tns:UzytkownikIstieje" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UzytkownikIstieje_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UzytkownikIstiejeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UzytkownikIstieje_StringFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q5:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszKomentarze_InputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszKomentarze" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszKomentarze_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszKomentarzeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszKomentarze_StringFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q6:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NapiszKomentarz_InputMessage">
+    <wsdl:part name="parameters" element="tns:NapiszKomentarz" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NapiszKomentarz_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NapiszKomentarzResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NapiszKomentarz_StringFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q7:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LajknijPrzepis_InputMessage">
+    <wsdl:part name="parameters" element="tns:LajknijPrzepis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LajknijPrzepis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LajknijPrzepisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LajknijPrzepis_StringFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q8:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Top5Dan_InputMessage">
+    <wsdl:part name="parameters" element="tns:Top5Dan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Top5Dan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Top5DanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Top5Dan_StringFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q9:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SzukajDaniePoNazwie_InputMessage">
+    <wsdl:part name="parameters" element="tns:SzukajDaniePoNazwie" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SzukajDaniePoNazwie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SzukajDaniePoNazwieResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SzukajDaniePoNazwie_StringFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q10:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszPrzepis_InputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszPrzepis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszPrzepis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszPrzepisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszPrzepis_StringFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q11:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajNowyPrzepis_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodajNowyPrzepis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajNowyPrzepis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodajNowyPrzepisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dodajNowyPrzepis_StringFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q12:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszLodowke_InputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszLodowke" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszLodowke_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszLodowkeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszLodowke_StringFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q13:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DodajProdDoLodowki_InputMessage">
+    <wsdl:part name="parameters" element="tns:DodajProdDoLodowki" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DodajProdDoLodowki_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DodajProdDoLodowkiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DodajProdDoLodowki_StringFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q14:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UsunZlodowki_InputMessage">
+    <wsdl:part name="parameters" element="tns:UsunZlodowki" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UsunZlodowki_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UsunZlodowkiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UsunZlodowki_StringFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q15:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminWypiszNiezatwPrzepisy_InputMessage">
+    <wsdl:part name="parameters" element="tns:AdminWypiszNiezatwPrzepisy" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminWypiszNiezatwPrzepisy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AdminWypiszNiezatwPrzepisyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminWypiszNiezatwPrzepisy_StringFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q16:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminZatwierdzPrzepis_InputMessage">
+    <wsdl:part name="parameters" element="tns:AdminZatwierdzPrzepis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminZatwierdzPrzepis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AdminZatwierdzPrzepisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AdminZatwierdzPrzepis_StringFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q17:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ZmienPrawoAdministratora_InputMessage">
+    <wsdl:part name="parameters" element="tns:ZmienPrawoAdministratora" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ZmienPrawoAdministratora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ZmienPrawoAdministratoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ZmienPrawoAdministratora_StringFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q18:string" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszDaneUzytkownika_InputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszDaneUzytkownika" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszDaneUzytkownika_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WypiszDaneUzytkownikaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_WypiszDaneUzytkownika_StringFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/" name="detail" element="q19:string" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="Logowanie_zapasowe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Logowanie_zapasowe" message="tns:IService1_Logowanie_zapasowe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Logowanie_zapasoweResponse" message="tns:IService1_Logowanie_zapasowe_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Logowanie_zapasoweStringFault" name="StringFault" message="tns:IService1_Logowanie_zapasowe_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logowanie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Logowanie" message="tns:IService1_Logowanie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LogowanieResponse" message="tns:IService1_Logowanie_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/LogowanieStringFault" name="StringFault" message="tns:IService1_Logowanie_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Rejestracja">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Rejestracja" message="tns:IService1_Rejestracja_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RejestracjaResponse" message="tns:IService1_Rejestracja_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/RejestracjaStringFault" name="StringFault" message="tns:IService1_Rejestracja_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SprawdzMail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SprawdzMail" message="tns:IService1_SprawdzMail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SprawdzMailResponse" message="tns:IService1_SprawdzMail_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/SprawdzMailStringFault" name="StringFault" message="tns:IService1_SprawdzMail_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UzytkownikIstieje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UzytkownikIstieje" message="tns:IService1_UzytkownikIstieje_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UzytkownikIstiejeResponse" message="tns:IService1_UzytkownikIstieje_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/UzytkownikIstiejeStringFault" name="StringFault" message="tns:IService1_UzytkownikIstieje_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WypiszKomentarze">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WypiszKomentarze" message="tns:IService1_WypiszKomentarze_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WypiszKomentarzeResponse" message="tns:IService1_WypiszKomentarze_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/WypiszKomentarzeStringFault" name="StringFault" message="tns:IService1_WypiszKomentarze_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NapiszKomentarz">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NapiszKomentarz" message="tns:IService1_NapiszKomentarz_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NapiszKomentarzResponse" message="tns:IService1_NapiszKomentarz_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/NapiszKomentarzStringFault" name="StringFault" message="tns:IService1_NapiszKomentarz_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LajknijPrzepis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/LajknijPrzepis" message="tns:IService1_LajknijPrzepis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LajknijPrzepisResponse" message="tns:IService1_LajknijPrzepis_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/LajknijPrzepisStringFault" name="StringFault" message="tns:IService1_LajknijPrzepis_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Top5Dan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Top5Dan" message="tns:IService1_Top5Dan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Top5DanResponse" message="tns:IService1_Top5Dan_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/Top5DanStringFault" name="StringFault" message="tns:IService1_Top5Dan_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SzukajDaniePoNazwie">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SzukajDaniePoNazwie" message="tns:IService1_SzukajDaniePoNazwie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SzukajDaniePoNazwieResponse" message="tns:IService1_SzukajDaniePoNazwie_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/SzukajDaniePoNazwieStringFault" name="StringFault" message="tns:IService1_SzukajDaniePoNazwie_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WypiszPrzepis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WypiszPrzepis" message="tns:IService1_WypiszPrzepis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WypiszPrzepisResponse" message="tns:IService1_WypiszPrzepis_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/WypiszPrzepisStringFault" name="StringFault" message="tns:IService1_WypiszPrzepis_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodajNowyPrzepis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dodajNowyPrzepis" message="tns:IService1_dodajNowyPrzepis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dodajNowyPrzepisResponse" message="tns:IService1_dodajNowyPrzepis_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/dodajNowyPrzepisStringFault" name="StringFault" message="tns:IService1_dodajNowyPrzepis_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WypiszLodowke">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WypiszLodowke" message="tns:IService1_WypiszLodowke_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WypiszLodowkeResponse" message="tns:IService1_WypiszLodowke_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/WypiszLodowkeStringFault" name="StringFault" message="tns:IService1_WypiszLodowke_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DodajProdDoLodowki">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DodajProdDoLodowki" message="tns:IService1_DodajProdDoLodowki_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DodajProdDoLodowkiResponse" message="tns:IService1_DodajProdDoLodowki_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/DodajProdDoLodowkiStringFault" name="StringFault" message="tns:IService1_DodajProdDoLodowki_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UsunZlodowki">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UsunZlodowki" message="tns:IService1_UsunZlodowki_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UsunZlodowkiResponse" message="tns:IService1_UsunZlodowki_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/UsunZlodowkiStringFault" name="StringFault" message="tns:IService1_UsunZlodowki_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AdminWypiszNiezatwPrzepisy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AdminWypiszNiezatwPrzepisy" message="tns:IService1_AdminWypiszNiezatwPrzepisy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AdminWypiszNiezatwPrzepisyResponse" message="tns:IService1_AdminWypiszNiezatwPrzepisy_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/AdminWypiszNiezatwPrzepisyStringFault" name="StringFault" message="tns:IService1_AdminWypiszNiezatwPrzepisy_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AdminZatwierdzPrzepis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AdminZatwierdzPrzepis" message="tns:IService1_AdminZatwierdzPrzepis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AdminZatwierdzPrzepisResponse" message="tns:IService1_AdminZatwierdzPrzepis_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/AdminZatwierdzPrzepisStringFault" name="StringFault" message="tns:IService1_AdminZatwierdzPrzepis_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ZmienPrawoAdministratora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ZmienPrawoAdministratora" message="tns:IService1_ZmienPrawoAdministratora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ZmienPrawoAdministratoraResponse" message="tns:IService1_ZmienPrawoAdministratora_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/ZmienPrawoAdministratoraStringFault" name="StringFault" message="tns:IService1_ZmienPrawoAdministratora_StringFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WypiszDaneUzytkownika">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/WypiszDaneUzytkownika" message="tns:IService1_WypiszDaneUzytkownika_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/WypiszDaneUzytkownikaResponse" message="tns:IService1_WypiszDaneUzytkownika_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IService1/WypiszDaneUzytkownikaStringFault" name="StringFault" message="tns:IService1_WypiszDaneUzytkownika_StringFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Logowanie_zapasowe">
+      <soap:operation soapAction="http://tempuri.org/IService1/Logowanie_zapasowe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Logowanie">
+      <soap:operation soapAction="http://tempuri.org/IService1/Logowanie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Rejestracja">
+      <soap:operation soapAction="http://tempuri.org/IService1/Rejestracja" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SprawdzMail">
+      <soap:operation soapAction="http://tempuri.org/IService1/SprawdzMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UzytkownikIstieje">
+      <soap:operation soapAction="http://tempuri.org/IService1/UzytkownikIstieje" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="WypiszKomentarze">
+      <soap:operation soapAction="http://tempuri.org/IService1/WypiszKomentarze" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="NapiszKomentarz">
+      <soap:operation soapAction="http://tempuri.org/IService1/NapiszKomentarz" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="LajknijPrzepis">
+      <soap:operation soapAction="http://tempuri.org/IService1/LajknijPrzepis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Top5Dan">
+      <soap:operation soapAction="http://tempuri.org/IService1/Top5Dan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SzukajDaniePoNazwie">
+      <soap:operation soapAction="http://tempuri.org/IService1/SzukajDaniePoNazwie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="WypiszPrzepis">
+      <soap:operation soapAction="http://tempuri.org/IService1/WypiszPrzepis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="dodajNowyPrzepis">
+      <soap:operation soapAction="http://tempuri.org/IService1/dodajNowyPrzepis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="WypiszLodowke">
+      <soap:operation soapAction="http://tempuri.org/IService1/WypiszLodowke" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DodajProdDoLodowki">
+      <soap:operation soapAction="http://tempuri.org/IService1/DodajProdDoLodowki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="UsunZlodowki">
+      <soap:operation soapAction="http://tempuri.org/IService1/UsunZlodowki" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AdminWypiszNiezatwPrzepisy">
+      <soap:operation soapAction="http://tempuri.org/IService1/AdminWypiszNiezatwPrzepisy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AdminZatwierdzPrzepis">
+      <soap:operation soapAction="http://tempuri.org/IService1/AdminZatwierdzPrzepis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ZmienPrawoAdministratora">
+      <soap:operation soapAction="http://tempuri.org/IService1/ZmienPrawoAdministratora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="WypiszDaneUzytkownika">
+      <soap:operation soapAction="http://tempuri.org/IService1/WypiszDaneUzytkownika" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="StringFault">
+        <soap:fault use="literal" name="StringFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:10080/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

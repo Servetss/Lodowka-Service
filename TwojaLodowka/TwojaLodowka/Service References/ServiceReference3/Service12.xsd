@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/LodowkaSerwice" />
+  <xs:import schemaLocation="http://localhost:10080/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/LodowkaSerwice.Models" />
+  <xs:element name="Logowanie_zapasowe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="haslo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logowanie_zapasoweResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Logowanie_zapasoweResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logowanie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="haslo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogowanieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/LodowkaSerwice" minOccurs="0" name="LogowanieResult" nillable="true" type="q1:SuperUzytkownikType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Rejestracja">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="imie" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwisko" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="haslo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mail" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RejestracjaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RejestracjaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SprawdzMail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mail" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SprawdzMailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SprawdzMailResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UzytkownikIstieje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UzytkownikIstiejeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UzytkownikIstiejeResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszKomentarze">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_przepisu" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszKomentarzeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WypiszKomentarzeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NapiszKomentarz">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_uzytkownika" type="xs:int" />
+        <xs:element minOccurs="0" name="id_przepisu" type="xs:int" />
+        <xs:element minOccurs="0" name="komentarz" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NapiszKomentarzResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NapiszKomentarzResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LajknijPrzepis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_uzutkownika" type="xs:int" />
+        <xs:element minOccurs="0" name="id_przepisu" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LajknijPrzepisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LajknijPrzepisResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Top5Dan">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Top5DanResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Top5DanResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SzukajDaniePoNazwie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SzukajDaniePoNazwieResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SzukajDaniePoNazwieResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszPrzepis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_przep" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszPrzepisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/LodowkaSerwice" minOccurs="0" name="WypiszPrzepisResult" nillable="true" type="q2:PrzepisDane" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodajNowyPrzepis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nazwa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="opis" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="id_produktow" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ilosci_produktow" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodajNowyPrzepisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dodajNowyPrzepisResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszLodowke">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_uzytkownika" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszLodowkeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WypiszLodowkeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DodajProdDoLodowki">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_uzytkow" type="xs:int" />
+        <xs:element minOccurs="0" name="id_prod" type="xs:int" />
+        <xs:element minOccurs="0" name="ilosci" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DodajProdDoLodowkiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DodajProdDoLodowkiResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsunZlodowki">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_uzytkow" type="xs:int" />
+        <xs:element minOccurs="0" name="id_prod" type="xs:int" />
+        <xs:element minOccurs="0" name="ilosci" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UsunZlodowkiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UsunZlodowkiResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdminWypiszNiezatwPrzepisy">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdminWypiszNiezatwPrzepisyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/LodowkaSerwice.Models" minOccurs="0" name="AdminWypiszNiezatwPrzepisyResult" nillable="true" type="q3:ArrayOfPrzepis" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdminZatwierdzPrzepis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_admin" type="xs:int" />
+        <xs:element minOccurs="0" name="id_przepis" type="xs:int" />
+        <xs:element minOccurs="0" name="zatwierdz" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdminZatwierdzPrzepisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AdminZatwierdzPrzepisResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZmienPrawoAdministratora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_admin" type="xs:int" />
+        <xs:element minOccurs="0" name="id_uzytko" type="xs:int" />
+        <xs:element minOccurs="0" name="supeUzer" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZmienPrawoAdministratoraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ZmienPrawoAdministratoraResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszDaneUzytkownika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+        <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nazwisko" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WypiszDaneUzytkownikaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/LodowkaSerwice" minOccurs="0" name="WypiszDaneUzytkownikaResult" nillable="true" type="q4:UzytkownikDane" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,105 @@
+c:\users\servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe.config
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.pdb
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csprojResolveAssemblyReference.cache
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.g.cs
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\App.g.cs
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.cache
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.lref
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.baml
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.g.resources
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.Properties.Resources.resources
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.GenerateResource.Cache
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.exe
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.pdb
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.g.cs
+C:\Users\Servets\documents\visual studio 2015\Projects\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.baml
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe.config
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.exe
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.pdb
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.pdb
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csprojResolveAssemblyReference.cache
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.g.cs
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.g.cs
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\App.g.cs
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.cache
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.lref
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.baml
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.baml
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.g.resources
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.Properties.Resources.resources
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.GenerateResource.Cache
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.g.cs
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.g.cs
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.baml
+C:\Users\Servets\Documents\Visual Studio 2015\Projects\ProjektLodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.baml
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe.config
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.pdb
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csprojResolveAssemblyReference.cache
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\App.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.cache
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.lref
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.baml
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.baml
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.baml
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.baml
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.g.resources
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.Properties.Resources.resources
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.GenerateResource.Cache
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.exe
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.pdb
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.g.cs
+C:\Users\Iv\Desktop\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe.config
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.exe
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.pdb
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.pdb
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csprojResolveAssemblyReference.cache
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\App.g.cs
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.cache
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.lref
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.baml
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.g.resources
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.Properties.Resources.resources
+C:\Users\Servets\Desktop\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.GenerateResource.Cache
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe.config
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.exe
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\bin\Debug\TwojaLodowka.pdb
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csprojResolveAssemblyReference.cache
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\DodUsun.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\App.g.cs
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.cache
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka_MarkupCompile.lref
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\DodUsun.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\MainWindow.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\ReceptGosc.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\Rejestracja.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukajZalogowany.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\WyszukwanieGosc.baml
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.g.resources
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.Properties.Resources.resources
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.GenerateResource.Cache
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.csproj.CoreCompileInputs.cache
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.exe
+E:\fffffffffffffff\Projects\Projekt WSIZ\Projekt_Lodowka\TwojaLodowka\TwojaLodowka\obj\Debug\TwojaLodowka.pdb
